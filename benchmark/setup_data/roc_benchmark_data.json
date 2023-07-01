@@ -1,0 +1,53 @@
+{
+  "framework_to_use": "auto-sklearn",
+  "framework_extras": {
+    "metric": "roc_auc",
+    "refit": "norefit",
+    "save_disc_space": "save_space",
+    "file_format": "csv"
+  },
+  "base_model_pruners": [
+    "TopN",
+    "SiloTopN"
+  ],
+  "framework_cpus": -1,
+  "framework_memory_gbs": 32,
+  "framework_time_hours": 4,
+  "slurm_cpus": 8,
+  "slurm_extras": {
+    "run_ask_on_metatask": {
+      "framework_time_hours": 2,
+      "framework_memory_gbs": 0
+    },
+    "run_collect_predictor_data": {
+      "framework_time_hours": 8,
+      "framework_memory_gbs": 0
+    },
+    "run_full_metatask_builder": {
+      "framework_time_hours": 19,
+      "framework_memory_gbs": 96
+    }
+  },
+  "special_cases": {
+    "framework_memory_gbs": {
+      "7593": 32,
+      "360113": 32,
+      "360114": 32,
+      "359994": 32,
+      "189356": 32,
+      "189354": 32,
+      "359976": 32,
+      "359986": 32,
+      "360112": 96,
+      "189355": 96,
+      "360975": 96
+    },
+    "file_format": {
+      "359984": "hdf",
+      "359994": "hdf",
+      "7593": "hdf",
+      "189355": "hdf",
+      "360112": "hdf"
+    }
+  }
+}

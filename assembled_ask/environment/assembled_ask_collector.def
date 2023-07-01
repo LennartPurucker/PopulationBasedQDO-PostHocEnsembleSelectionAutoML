@@ -1,0 +1,15 @@
+Bootstrap: docker
+FROM: python:3.8.10
+
+%post
+	apt-get update
+	apt-get install build-essential swig python-dev -y
+    pip install --no-cache-dir auto-sklearn==0.14.7
+    pip install --no-cache-dir assembled[openml]==0.0.4
+    pip install --no-cache-dir numpy pandas scikit-learn scipy tables openml requests
+    pip install --no-cache-dir pynisher~=0.6.4
+
+%runscript
+    echo "Container was created $NOW"
+    echo "Arguments received: $*"
+    exec echo "$@"

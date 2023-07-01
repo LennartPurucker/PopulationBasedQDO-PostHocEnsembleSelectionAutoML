@@ -1,0 +1,9 @@
+FROM python:3.8.10
+
+RUN apt-get update && apt-get install build-essential swig python-dev -y && \
+	pip install --no-cache-dir --upgrade pip
+
+RUN pip install --no-cache-dir auto-sklearn==0.14.7
+RUN pip install --no-cache-dir assembled[openml]==0.0.4
+RUN pip install --no-cache-dir numpy pandas scikit-learn scipy tables openml requests
+RUN pip install --no-cache-dir pynisher~=0.6.4

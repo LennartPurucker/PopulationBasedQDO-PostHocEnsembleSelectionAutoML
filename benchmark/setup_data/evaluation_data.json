@@ -1,0 +1,38 @@
+{
+  "ensemble_evaluations_qdo": {
+    "time_per_fold_h": 2,
+    "memory_per_fold_gb": 32,
+    "special_cases": {
+      "parallel": [
+        "360114",
+        "359994",
+        "360112",
+        "189355"
+      ],
+      "time_per_fold_h": {
+        "all": {
+          "189355": 21,
+          "360112": 21
+        }
+      },
+      "memory_per_fold_gb": {
+        "all": {
+          "7593": 32,
+          "360113": 32,
+          "360114": 32,
+          "359994": 32,
+          "189356": 32,
+          "189354": 32,
+          "359976": 32,
+          "359986": 32,
+          "360112": 96,
+          "189355": 96,
+          "360975": 96
+        }
+      }
+    },
+    "use_config_ensembles": true,
+    "config_space_name": "QDO",
+    "use_metatasks_from_input": false
+  }
+}

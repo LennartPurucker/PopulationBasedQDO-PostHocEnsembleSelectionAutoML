@@ -87,7 +87,7 @@ If you use our code or the data produced by our code in scientific publications,
 _Lennart Purucker, Lennart Schneider, Marie Anastacio, Joeran Beel, Bernd Bischl, Holger Hoos_,
 _Second International Conference on Automated Machine Learning, 2023_. 
 
-Link to publication: OpenReview and arXiv (**_TBA_**)
+Link to publication: OpenReview (**_TBA_**) and [arXiv](https://arxiv.org/abs/2307.08364)
 
 Link to teaser video: **_TBA_**
 

@@ -87,12 +87,19 @@ If you use our code or the data produced by our code in scientific publications,
 _Lennart Purucker, Lennart Schneider, Marie Anastacio, Joeran Beel, Bernd Bischl, Holger Hoos_,
 _Second International Conference on Automated Machine Learning, 2023_. 
 
-Link to publication: OpenReview (**_TBA_**) and [arXiv](https://arxiv.org/abs/2307.08364)
+Link to publication: [OpenReview](https://openreview.net/forum?id=zvV7hemQmtLl) and [arXiv](https://arxiv.org/abs/2307.08364)
 
-Link to teaser video: **_TBA_**
+Link to teaser video: [YouTube](https://www.youtube.com/watch?v=wzvCSN-94Hs&list=PLp7L30nGpKM8_lzMdDbUnYXUlfBGH_EA2&index=10)
 
-Link to full video: **_TBA_**
+Link to full video: [YouTube](https://www.youtube.com/watch?v=E8d-se0COIo&list=PLp7L30nGpKM-6Y7LQdtb6TWX3o1d9BDSs&index=13)
 
 ```
-@inproceedings{TBA}
+@inproceedings{
+  purucker2023qdoes,
+  title={Q(D)O-{ES}: Population-based Quality (Diversity) Optimisation for Post Hoc Ensemble Selection in Auto{ML}},
+  author={Lennart Purucker and Lennart Schneider and Marie Anastacio and Joeran Beel and Bernd Bischl and Holger Hoos},
+  booktitle={AutoML Conference 2023},
+  year={2023},
+  url={https://openreview.net/forum?id=zvV7hemQmtLl}
+}
 ```
